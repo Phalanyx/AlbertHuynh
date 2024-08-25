@@ -1,28 +1,37 @@
 import React from 'react'
 import { useState } from 'react'
 import json from './ProjectData.json'
+import './Projects.css'
+
 function Projects() {
     const [onStart, setOnStart] = useState(true)
     const [data, setData] = useState([])
+
     if (onStart) {
         setData(json['projects'])
-        console.log(data)
         setOnStart(false)
     }
-  return (
-    <div>
-        <div>Projects</div>
-        <ul>
-            {data.map((project) => (
-                <li key={project.id}>
-                    <h2>{project.name}</h2>
-                    <p>{project.description}</p>
-                </li>
-            ))}
-        </ul>
-    </div>
 
-  )
+    return (
+        <div>
+            <div className='projectHeader'>Projects</div>
+            <ul className='projectTable'>
+                {data.map((project) => (
+                    <li className='projectItem' key={project.id}>
+                        <div className='image'>
+                            <img src={project.img} alt={project.name} />
+                        </div>
+                        <div className='body'>
+                            <a href={project.github} target="_blank" rel="noopener noreferrer">
+                                {project.name}
+                            </a>
+                            <p>{project.description}</p>
+                        </div>
+                    </li>
+                ))}
+            </ul>
+        </div>
+    )
 }
 
 export default Projects

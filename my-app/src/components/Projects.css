@@ -1,0 +1,48 @@
+.projectTable {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectTable .projectItem {
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 20px; /* Add some space between items */
+    justify-items: left;
+}
+
+.projectTable .projectItem .image img {
+    max-width: 800px;
+    max-height: 800px;
+    height: auto;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Add transition for smooth zoom */
+}
+
+.projectTable .projectItem .image img:hover {
+    transform: scale(0.9); /* Zoom out the image on hover */
+}
+
+.projectTable .projectItem a {
+    text-decoration: none;
+    color: #ccd6f6;
+    font-size: 20px;
+}
+
+.projectTable .projectItem .body {
+    color: #8892b0;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 20px; 
+    margin-right : 500px;
+}
+
+.projectHeader{
+    color: #ccd6f6;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
