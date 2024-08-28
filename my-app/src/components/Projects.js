@@ -14,7 +14,7 @@ function Projects() {
 
     return (
         <div>
-            <div className='projectHeader'>Projects</div>
+            <div id='project' className='projectHeader'>Projects</div>
             <ul className='projectTable'>
                 {data.map((project) => (
                     <li className='projectItem' key={project.id}>
