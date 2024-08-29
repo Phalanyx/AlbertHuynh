@@ -2,23 +2,31 @@
     list-style-type: none;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .projectTable .projectItem {
+    border: 2px solid #ccd6f6;
+    height: 90%;
+    width: 90%;
     display: flex;
     text-decoration: none;
     margin-bottom: 20px; /* Add some space between items */
-    justify-items: left;
 }
 
-.projectTable .projectItem .image img {
-    max-width: 800px;
-    max-height: 800px;
-    height: auto;
+.projectTable .projectItem .imgBorder .image img {
     overflow: hidden;
     transition: transform 0.3s ease; /* Add transition for smooth zoom */
+    max-width: 800px;
+    max-height: 800px;
 }
 
+.projectTable .projectItem .imgBorder{
+    border: 2px solid #ccd6f6;
+    border-radius: 10px;
+    max-width: 800px;
+    max-height: 800px;
+}
 .projectTable .projectItem .image img:hover {
     transform: scale(0.9); /* Zoom out the image on hover */
 }

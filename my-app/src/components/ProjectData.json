@@ -1,14 +1,14 @@
 {
     "projects": [
         {
-        "id": 1,
+        "id": 0,
         "name": "Toronto Asian Art Museum Explorer",
         "description": "TAAM Explorer is a Java based Android application designed to showcase artifacts from the TAAM Collection. Utilizing a custom collection design system, the app offers users an immersive and intuitive experience for exploring historical artifacts. Users can browse, search, and view detailed information and images of each artifact.",
         "img": "https://cdn.discordapp.com/attachments/1156353437504643174/1277279528250769470/image.png?ex=66cc96c2&is=66cb4542&hm=dc9cb0495541f75214b9ee4127b404bfd16a2b3d83432961ba93b0c512c444f1&",
         "github": "https://github.com/marc-issism/TAAMproject"
         },
         {
-        "id": 2,
+        "id": 1,
         "name": "Climate Compass",
         "description": "At Climate Compass, we aim to deliver relief and reliability to users confronting the ever-increasing threat of natural disasters. In a world where these events have become more frequent and severe, we aim to provide users with essential services designed to enhance safety and preparedness during critical times. Climate Compass provides a comprehensive list of government aid, programs and nearby climate shelters available to any climate refugees.",
         "img": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/966/724/datas/original.png",
