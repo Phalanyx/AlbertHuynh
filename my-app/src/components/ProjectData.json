@@ -4,7 +4,7 @@
         "id": 0,
         "name": "Toronto Asian Art Museum Explorer",
         "description": "TAAM Explorer is a Java based Android application designed to showcase artifacts from the TAAM Collection. Utilizing a custom collection design system, the app offers users an immersive and intuitive experience for exploring historical artifacts. Users can browse, search, and view detailed information and images of each artifact.",
-        "img": ["https://drive.google.com/file/d/16rA6ewLzBei37A_LAAJftZLSg1F-eqDs/view?usp=sharing"],
+        "img": ["https://i.imgur.com/nzQoZPG.png"],
         "github": "https://github.com/marc-issism/TAAMproject"
         },
         {
@@ -18,7 +18,7 @@
         "id": 2,
         "name": "no.ff",
         "description": "No.ff is an innovative League of Legends statistical analyzer designed to transform raw in-game data into actionable insights for players and analysts. Our machine learning model, built with Sci-kit Learn and TensorFlow and trained on more than 500k match data using a TPU, predicts game outcomes with 70% accuracy, delivering strategic advantages to players. No.ff features an interactive chatbot, powered by Gemini's API, providing users with real-time game information and tips. ",
-        "img": ["https://drive.google.com/file/d/14v2MrLcJwrobvi779EuWQ40mLqa7UX3C/view?usp=sharing"],
+        "img": ["https://i.imgur.com/xwqUtdF.png"],
         "github": "https://github.com/no-ff/no.ff"
         }
     ]
