@@ -37,7 +37,7 @@ function Header() {
   return (
     <header className={scroll ? "activenav": ""}>
     <div className='logo'>
-    <h1>My Portfolio</h1>
+    <h1>Albert Huynh</h1>
     </div>
     <nav className='nav'>
     <ul className='navList'> 

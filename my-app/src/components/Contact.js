@@ -4,6 +4,7 @@ function Contact() {
   return (
     <div id='contact' className='contact'>
       <div className='title'>
+
       Get In Touch
       </div>
       <div className='contactBody'>
