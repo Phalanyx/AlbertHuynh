@@ -24,7 +24,7 @@ function Header() {
       if (target === "Projects") {
         return () => {
           const element = document.getElementById("project")
-          element.scrollIntoView({ behavior: "smooth" })
+          element.scrollIntoView({ behavior: "smooth"})
         }
       }
       if (target === "Contact") {
