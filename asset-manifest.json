@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AlbertHuynh/static/css/main.78763a9c.css",
+    "main.js": "/AlbertHuynh/static/js/main.fc53f50f.js",
+    "static/js/453.ec0c5532.chunk.js": "/AlbertHuynh/static/js/453.ec0c5532.chunk.js",
+    "index.html": "/AlbertHuynh/index.html",
+    "main.78763a9c.css.map": "/AlbertHuynh/static/css/main.78763a9c.css.map",
+    "main.fc53f50f.js.map": "/AlbertHuynh/static/js/main.fc53f50f.js.map",
+    "453.ec0c5532.chunk.js.map": "/AlbertHuynh/static/js/453.ec0c5532.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78763a9c.css",
+    "static/js/main.fc53f50f.js"
+  ]
+}
